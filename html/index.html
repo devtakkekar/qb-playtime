@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Playtime</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="app" class="container hidden" style="display:none;">
+		<div class="panel">
+			<h1>Playtime</h1>
+			<button id="close-btn">X</button>
+			<div class="player">
+				<div class="player-name" id="player-name">Player</div>
+				<div class="player-rank-time">
+					<span id="player-rank">#-</span>
+					<span id="player-time">0h 0m</span>
+					<span id="player-join" style="margin-left:10px; opacity:0.8;">Joined: -</span>
+				</div>
+			</div>
+			<h2>Leaderboard</h2>
+			<table id="leaderboard">
+				<thead>
+					<tr>
+						<th>Rank</th>
+						<th>Name</th>
+						<th>Time</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
+
+

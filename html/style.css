@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: rgba(0,0,0,0); }
+.hidden { display: none; }
+.container { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.panel { width: 600px; max-width: 90vw; background: rgba(15,15,20,0.95); color: #fff; padding: 20px; border-radius: 8px; border: 1px solid #2c2c3b; box-shadow: 0 10px 30px rgba(0,0,0,0.5); position: relative; }
+h1 { margin: 0 0 10px; font-size: 24px; }
+h2 { margin: 16px 0 8px; font-size: 18px; }
+.player { display: flex; align-items: baseline; justify-content: space-between; padding: 10px; background: #1e1e2a; border-radius: 6px; border: 1px solid #2c2c3b; }
+.player-name { font-weight: bold; font-size: 18px; }
+.player-rank-time span { margin-left: 10px; opacity: 0.9; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #2c2c3b; }
+tr:nth-child(even) td { background: #171722; }
+button { margin-top: 12px; padding: 8px 12px; background: #3a62ff; color: white; border: none; border-radius: 6px; cursor: pointer; }
+button:hover { background: #2f51d6; }
+
+/* Minimal top-right close button */
+#close-btn { position: absolute; top: 10px; right: 10px; width: 28px; height: 28px; padding: 0; display: inline-flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.06); color: #fff; border-radius: 6px; border: 1px solid #3a3a4a; font-weight: bold; line-height: 1; }
+#close-btn:hover { background: rgba(255,255,255,0.12); }
+
+/* Rank colors */
+.rank-gold { color: #FFD700; font-weight: bold; }
+.rank-red { color: #FF4D4D; font-weight: bold; }
+
+
